@@ -79,7 +79,7 @@ a:focus {
 }
 
 .mcCert img {
-    width: 60vw;
+    /* width: 60vw; */
 }
 
 @media (max-width:900px) {
