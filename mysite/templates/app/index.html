@@ -63,7 +63,8 @@
                     </div>
                     <div class="feature-text">
                         <h3>Expert Workers</h3>
-                        <p>We operate a culture of continous improvement and always look for the best and cost effective means of meeting our customers requirements.</p>
+                        <p>We operate a culture of continous improvement and always look for the best and cost effective
+                            means of meeting our customers requirements.</p>
                     </div>
                 </div>
             </div>
@@ -74,7 +75,8 @@
                     </div>
                     <div class="feature-text">
                         <h3>Quality Work</h3>
-                        <p>We provide a broad range of services to public and private sector entities from conceptualization of any projects until its final completion.</p>
+                        <p>We provide a broad range of services to public and private sector entities from
+                            conceptualization of any projects until its final completion.</p>
                     </div>
                 </div>
             </div>
@@ -85,7 +87,8 @@
                     </div>
                     <div class="feature-text">
                         <h3>24/7 Support</h3>
-                        <p>For our clients, it doesn’t matter what environment you’re working in, or where your project is located, we are ready to help you and offer you a solution...</p>
+                        <p>For our clients, it doesn’t matter what environment you’re working in, or where your project
+                            is located, we are ready to help you and offer you a solution...</p>
                     </div>
                 </div>
             </div>
@@ -110,16 +113,17 @@
             </div>
             <div class="col-lg-7 col-md-6">
                 <!-- <div class="section-header text-left">
-                    <p>Welcome to Exxonsmith</p>
+                    <p>Welcome to Mcsmith</p>
                     <h2>About Us</h2>
                 </div> -->
                 <div class="about-text">
                     <p>
-                        Exxonsmith international limited is a registered Nigerian company, engaged in the provision of modern Engineering related solutions for development of technology across Africa.
-                         <!-- The company acquired expertice in all the related desciplines of engineering,procurement,construction and maintainance services. We are known for logistical mananagement and all related services required for executing projects in the power,oil and gas sectores. Having successfully worked in multiple facets of the Oil and Gas as well as other sectors,Exxonsmith has a formidable team of professionals with vast range of experience that can compete with any company in terms of rendering qualitative services -->
+                        Mcsmith international limited is a registered Nigerian company, engaged in the provision of
+                        modern Engineering related solutions for development of technology across Africa.
+                        <!-- The company acquired expertice in all the related desciplines of engineering,procurement,construction and maintainance services. We are known for logistical mananagement and all related services required for executing projects in the power,oil and gas sectores. Having successfully worked in multiple facets of the Oil and Gas as well as other sectors,Mcsmith has a formidable team of professionals with vast range of experience that can compete with any company in terms of rendering qualitative services -->
                     </p>
 
-                    <a class="btn" href="">Learn More</a>
+                    <a class="btn" href="{% url 'app:about'  %}">Learn More</a>
                 </div>
             </div>
 
@@ -127,7 +131,8 @@
                 <div class="about-inner">
                     <span class="iconify" data-icon="emojione:rocket"></span>
                     <h3>Our Mission</h3>
-                    <p>To provide a continuosly improved Engineering,construction,logistics and marine service solutions to private
+                    <p>To provide a continuosly improved Engineering,construction,logistics and marine service solutions
+                        to private
                         and
                         government sector clients in Nigeria</p>
                 </div>
@@ -140,7 +145,8 @@
                 <div class="about-inner">
                     <span class="iconify" data-icon="fxemoji:trophy"></span>
                     <h3>Our Core Values</h3>
-                    <p>Integrity, Working intimately with our customers to anticipate their needs and meet their needs,being
+                    <p>Integrity, Working intimately with our customers to anticipate their needs and meet their
+                        needs,being
                         responsible
                         partners with the communities we operate</p>
                 </div>
@@ -150,6 +156,11 @@
 
         </div>
     </div>
+</div>
+
+<div class="mcCert">
+    <img src="{% static 'img/mcCert.png' %}" alt="Image">
+
 </div>
 <!-- About End -->
 
@@ -174,7 +185,7 @@
                     </div>
                     <div class="service-text">
                         <h3>{{service.name}}</h3>
-                        <a class="btn" href="{% static 'img/service-1.jpg' %}" data-lightbox="service">+</a>
+                        <!-- <a class="btn" href="{% static 'img/service-1.jpg' %}" data-lightbox="service">+</a> -->
                     </div>
                 </div>
             </div>
@@ -218,90 +229,6 @@
 </div>
 <!-- Projects End -->
 
-
-
-<!-- Team Start -->
-<!--<div class="team">-->
-<!--    <div class="container">-->
-<!--        <div class="section-header text-center">-->
-<!--            <p>Our Team</p>-->
-<!--            <h2>Meet Our Engineer</h2>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">-->
-<!--                <div class="team-item">-->
-<!--                    <div class="team-img">-->
-<!--                        <img src="{% static 'img/team-1.jpg' %}" alt="Team Image">-->
-<!--                    </div>-->
-<!--                    <div class="team-text">-->
-<!--                        <h2>Adam Phillips</h2>-->
-<!--                        <p>CEO & Founder</p>-->
-<!--                    </div>-->
-<!--                    <div class="team-social">-->
-<!--                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>-->
-<!--                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">-->
-<!--                <div class="team-item">-->
-<!--                    <div class="team-img">-->
-<!--                        <img src="{% static 'img/team-2.jpg' %}" alt="Team Image">-->
-<!--                    </div>-->
-<!--                    <div class="team-text">-->
-<!--                        <h2>Dylan Adams</h2>-->
-<!--                        <p>Civil Engineer</p>-->
-<!--                    </div>-->
-<!--                    <div class="team-social">-->
-<!--                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>-->
-<!--                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">-->
-<!--                <div class="team-item">-->
-<!--                    <div class="team-img">-->
-<!--                        <img src="{% static 'img/team-3.jpg' %}" alt="Team Image">-->
-<!--                    </div>-->
-<!--                    <div class="team-text">-->
-<!--                        <h2>Jhon Doe</h2>-->
-<!--                        <p>Interior Designer</p>-->
-<!--                    </div>-->
-<!--                    <div class="team-social">-->
-<!--                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>-->
-<!--                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">-->
-<!--                <div class="team-item">-->
-<!--                    <div class="team-img">-->
-<!--                        <img src="{% static 'img/team-4.jpg' %}" alt="Team Image">-->
-<!--                    </div>-->
-<!--                    <div class="team-text">-->
-<!--                        <h2>Josh Dunn</h2>-->
-<!--                        <p>Painter</p>-->
-<!--                    </div>-->
-<!--                    <div class="team-social">-->
-<!--                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>-->
-<!--                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>-->
-<!--                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>-->
-<!--                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!-- Team End -->
-
-
 <!-- FAQs Start -->
 <div class="faqs">
     <div class="container">
@@ -315,12 +242,12 @@
                     <div class="card wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="card-header">
                             <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                              What do we do?
+                                What do we do?
                             </a>
                         </div>
                         <div id="collapseOne" class="collapse" data-parent="#accordion-1">
                             <div class="card-body">
-                          We engage in Engineering, Procurement, Construction, and Logistics management services.
+                                We engage in Engineering, Procurement, Construction, and Logistics management services.
                             </div>
                         </div>
                     </div>
@@ -332,7 +259,7 @@
                         </div>
                         <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
                             <div class="card-body">
-                               exxonsmith@gmail.com
+                                Mcsmith@gmail.com
                             </div>
                         </div>
                     </div>
@@ -344,11 +271,11 @@
                         </div>
                         <div id="collapseThree" class="collapse" data-parent="#accordion-1">
                             <div class="card-body">
-                               No. 9 Asamankese Street,Wuse Zone 2, Abuja.
+                                No. 9 Asamankese Street,Wuse Zone 2, Abuja.
 
                             </div>
-                              <div class="card-body">
-                               No. 9 Asamankese Street,Wuse Zone 2, Abuja.
+                            <div class="card-body">
+                                No. 9 Asamankese Street,Wuse Zone 2, Abuja.
 
                             </div>
                         </div>
@@ -368,7 +295,7 @@
                         </div>
                         <div id="collapseEight" class="collapse" data-parent="#accordion-2">
                             <div class="card-body">
-                               To be the the leading technical and technology driven company in Nigeria
+                                To be the the leading technical and technology driven company in Nigeria
                             </div>
                         </div>
                     </div>
@@ -380,19 +307,21 @@
                         </div>
                         <div id="collapseNine" class="collapse" data-parent="#accordion-2">
                             <div class="card-body">
-                                To provide a continuosly improved Engineering,construction,logistics and marine service solutions to private and government sector clients in Nigeria
+                                To provide a continuosly improved Engineering,construction,logistics and marine service
+                                solutions to private and government sector clients in Nigeria
                             </div>
                         </div>
                     </div>
                     <div class="card wow fadeInRight" data-wow-delay="0.5s">
                         <div class="card-header">
                             <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
-                             Our Core Values?
+                                Our Core Values?
                             </a>
                         </div>
                         <div id="collapseTen" class="collapse" data-parent="#accordion-2">
                             <div class="card-body">
-                            Integrity, Working intimately with our customers to anticipate their needs and meet their needs,being responsible partners with the communities we operate
+                                Integrity, Working intimately with our customers to anticipate their needs and meet
+                                their needs,being responsible partners with the communities we operate
                             </div>
                         </div>
                     </div>
@@ -404,104 +333,6 @@
 <!-- FAQs End -->
 
 
-<!-- Testimonial Start -->
-<!-- <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="testimonial-slider-nav">
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-1.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-2.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-3.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-4.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-1.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-2.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-3.jpg' %}" alt="Testimonial">
-                    </div>
-                    <div class="slider-nav"><img src="{% static 'img/testimonial-4.jpg' %}" alt="Testimonial">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="testimonial-slider">
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                    <div class="slider-item">
-                        <h3>Customer Name</h3>
-                        <h4>profession</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                            Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id
-                            gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque
-                            maximus.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Testimonial End -->
 
 
 {% endblock %}

@@ -4,13 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Exxonsmith</title>
+    <title>Mcsmith</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Construction Company Website Template" name="keywords">
     <meta content="Construction Company Website Template" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{ % static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{ % static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{ % static 'favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{ % static 'favicon/site.webmanifest' %}">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -39,8 +43,9 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="logo">
                             <a href="/">
-                                <h1>exxonsmith</h1>
-                                <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                <!-- <h1>Mcsmith</h1> -->
+                                <img class="logo-image" src="{% static 'img/mcSmith.png' %}" alt="Logo">
+
                             </a>
                         </div>
                     </div>
@@ -64,7 +69,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+234 8135159897</p>
+                                        <p>+234 8135 159 897</p>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +80,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@exxonsmith.com</p>
-                                        <p>exxonsmith@gmail.com</p>
+                                        <p>info@Mcsmith.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +117,7 @@
                             <a href="{% url 'app:contact' %}" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="ml-auto">
-                            <a class="btn" href="#">Get A Quote</a>
+                            <a class="btn" href="{% url 'app:contact' %}">Get A Quote</a>
                         </div>
                     </div>
                 </nav>
@@ -133,9 +137,10 @@
                         <div class="footer-contact">
                             <h2>Office Contact</h2>
                             <p><i class="fa fa-map-marker-alt"></i>No. 9 Asamankese Street,Wuse Zone 2, Abuja</p>
-                                <p><i class="fa fa-map-marker-alt"></i>No. 5 Unity Close Off Chinda Road, Rumueme, Port Harcourt</p>
+                            <p><i class="fa fa-map-marker-alt"></i>No. 5 Unity Close Off Chinda Road, Rumueme, Port
+                                Harcourt</p>
                             <p><i class="fa fa-phone-alt"></i>+2348033896313</p>
-                            <p><i class="fa fa-envelope"></i>exxonsmith@gmail.com</p>
+                            <p><i class="fa fa-envelope"></i>info@Mcsmith.com</p>
                             <div class="footer-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -169,7 +174,8 @@
                         <div class="newsletter">
                             <h2>Newsletter</h2>
                             <p>
-                               Are you interested in getting our latest news and offer. Kindly subscribe to our newsletter.
+                                Are you interested in getting our latest news and offer. Kindly subscribe to our
+                                newsletter.
                             </p>
                             <div class="form">
                                 <input class="form-control" placeholder="Email here">
@@ -191,7 +197,7 @@
             <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; <a href="#">Exxonsmith</a>, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Mcsmith</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <p>Designed By <a href="https://andrew-bcdb0.web.app/">Andrew</a></p>
